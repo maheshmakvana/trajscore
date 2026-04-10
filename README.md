@@ -1,20 +1,20 @@
-# agenteval
+# trajscore
 
 **Production-grade agentic trajectory evaluation for multi-step AI agents.**
 
 Score any AI agent run on 6 built-in metrics, detect regressions, stream results, and integrate into CI/CD — with zero vendor lock-in.
 
 ```bash
-pip install agenteval
+pip install trajscore
 ```
 
 ---
 
-## Why agenteval?
+## Why trajscore?
 
 In 2026, every team building agentic AI faces the same problem: **you can't improve what you can't measure.** Agents fail in subtle ways — they loop, misuse tools, hallucinate answers unsupported by observations, or take twice as many steps as needed. No single library evaluated full multi-step trajectories with structured, auditable metrics.
 
-`agenteval` fixes this.
+`trajscore` fixes this.
 
 ---
 
@@ -230,7 +230,7 @@ score = evaluator.evaluate(trajectory)
 ## Installation
 
 ```bash
-pip install agenteval
+pip install trajscore
 ```
 
 Python 3.8+ · No external dependencies (stdlib + pydantic)

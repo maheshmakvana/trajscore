@@ -1,4 +1,4 @@
-"""Tests for agenteval core and advanced features."""
+"""Tests for trajscore core and advanced features."""
 import asyncio
 import pytest
 from trajscore.models import StepType, TrajectoryStep, Trajectory

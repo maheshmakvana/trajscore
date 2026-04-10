@@ -1,25 +1,25 @@
 """Exceptions for trajscore."""
 
 
-class AgentEvalError(Exception):
+class TrajscoreError(Exception):
     """Base exception for trajscore."""
 
 
-class TrajectoryValidationError(AgentEvalError):
+class TrajectoryValidationError(TrajscoreError):
     """Raised when a trajectory is malformed or invalid."""
 
 
-class EvaluationError(AgentEvalError):
+class EvaluationError(TrajscoreError):
     """Raised when an evaluation step fails."""
 
 
-class MetricNotFoundError(AgentEvalError):
+class MetricNotFoundError(TrajscoreError):
     """Raised when a requested metric is not registered."""
 
 
-class BudgetExceededError(AgentEvalError):
+class BudgetExceededError(TrajscoreError):
     """Raised when evaluation exceeds cost/token budget."""
 
 
-class SchemaViolationError(AgentEvalError):
+class SchemaViolationError(TrajscoreError):
     """Raised when a trajectory step violates schema constraints."""

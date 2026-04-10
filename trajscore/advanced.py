@@ -1,5 +1,5 @@
 """
-Advanced features for agenteval — 2026 Standard.
+Advanced features for trajscore — 2026 Standard.
 
 Covers: Caching, Pipeline, Validation & Schema, Async & Concurrency,
 Observability, Streaming & Storage, Diff & Regression, Security & Cost.

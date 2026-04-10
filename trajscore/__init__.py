@@ -1,5 +1,5 @@
 """
-agenteval — Agentic Multi-Step Trajectory Evaluation.
+trajscore — Agentic Multi-Step Trajectory Evaluation.
 
 Evaluate any AI agent trajectory with production-grade metrics:
 goal completion, tool accuracy, step efficiency, reasoning coherence,
@@ -16,7 +16,7 @@ from trajscore.models import (
 from trajscore.evaluator import TrajectoryEvaluator
 from trajscore.watcher import TrajectoryWatcher
 from trajscore.exceptions import (
-    AgentEvalError,
+    TrajscoreError,
     TrajectoryValidationError,
     EvaluationError,
     MetricNotFoundError,
@@ -63,7 +63,7 @@ __all__ = [
     # Core
     "TrajectoryEvaluator", "TrajectoryWatcher",
     # Exceptions
-    "AgentEvalError", "TrajectoryValidationError", "EvaluationError",
+    "TrajscoreError", "TrajectoryValidationError", "EvaluationError",
     "MetricNotFoundError", "BudgetExceededError", "SchemaViolationError",
     # Metrics
     "GoalCompletionMetric", "ToolAccuracyMetric", "StepEfficiencyMetric",
