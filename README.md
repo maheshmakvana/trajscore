@@ -237,6 +237,19 @@ Python 3.8+ · No external dependencies (stdlib + pydantic)
 
 ---
 
+## Changelog
+
+### v1.1.3 (2026-04-10)
+- Added Changelog section to README for release traceability
+- SEO improvements: trajectory evaluation, agentic benchmark, multi-step AI scoring
+
+### v1.1.0
+- Renamed module to `trajscore` to match PyPI package name
+- Fixed all internal import references
+
+### v1.0.0
+- Initial release: 6 built-in agentic metrics, regression detection, CI/CD integration, streaming
+
 ## License
 
 MIT
