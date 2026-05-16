@@ -1,3 +1,5 @@
+![trajscore Banner](assets/images/banner.svg)
+
 # agenteval
 
 **Production-grade agentic trajectory evaluation for multi-step AI agents.**
