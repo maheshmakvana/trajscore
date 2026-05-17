@@ -2,9 +2,9 @@ from setuptools import setup, find_packages
 
 setup(
     name="trajscore",
-    version="1.1.4",
-    description="Production-grade agentic trajectory evaluation ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â score multi-step AI agent runs on goal completion, tool accuracy, step efficiency, reasoning coherence, loop detection, and faithfulness",
-    long_description=open("README.md").read(),
+    version="1.1.6",
+    description="Production-grade agentic trajectory evaluation — score multi-step AI agent runs on goal completion, tool accuracy, step efficiency, reasoning coherence, loop detection, and faithfulness",
+    long_description=open("README.md", encoding="utf-8").read(),
     long_description_content_type="text/markdown",
     url="https://github.com/maheshmakvana/trajscore",
     packages=find_packages(exclude=["tests*", "venv*"]),
@@ -26,6 +26,7 @@ setup(
         "Programming Language :: Python :: 3.10",
         "Programming Language :: Python :: 3.11",
         "Programming Language :: Python :: 3.12",
+        "Programming Language :: Python :: 3.13",
         "Topic :: Scientific/Engineering :: Artificial Intelligence",
         "Topic :: Software Development :: Libraries :: Python Modules",
         "Topic :: Software Development :: Testing",

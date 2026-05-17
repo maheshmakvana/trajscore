@@ -54,7 +54,7 @@ from trajscore.advanced import (
     CostLedger,
 )
 
-__version__ = "1.0.0"
+__version__ = "1.1.6"
 
 __all__ = [
     # Models
